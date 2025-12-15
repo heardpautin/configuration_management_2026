@@ -1,0 +1,347 @@
+CONFIGURATION MANAGEMENT PROJECT 2026. 
+
+# Configuration Management & Baseline Enforcement
+## Security-Focused Configuration Governance (IAM • GRC • Cloud • Healthcare • Federal)
+
+---
+
+## Project Purpose
+
+This project demonstrates **Configuration Management as a security, governance, and risk control**, not traditional system administration.
+
+The goal is to show how configuration discipline:
+- Preserves **approved security baselines**
+- Prevents **configuration drift**
+- Supports **audit readiness**
+- Enforces **least privilege and change accountability**
+
+This mirrors real-world Configuration Management responsibilities in:
+- Healthcare IT environments
+- Federal / DoD programs
+- Financial institutions
+- Cloud-first regulated enterprises
+
+---
+
+## Why Configuration Management Is a Security Function
+
+Configuration changes directly impact:
+- Identity permissions
+- Access pathways
+- System hardening
+- Audit outcomes
+- Regulatory compliance
+
+Poor configuration control leads to:
+- Privilege creep
+- Unauthorized access
+- Failed audits
+- Security incidents
+
+Configuration Management ensures systems remain in a **known, sanctioned, defensible state** aligned with policy and frameworks.
+
+---
+
+## Framework & Control Alignment
+
+This project aligns to the following frameworks and controls:
+
+### NIST 800-53
+- **CM-2** – Baseline Configuration
+- **CM-3** – Configuration Change Control
+- **CM-5** – Access Restrictions for Change
+- **CM-6** – Configuration Settings
+- **CM-7** – Least Functionality
+- **IA-2 / IA-5** – Identification & Authentication
+- **AC-2 / AC-6** – Account Management & Least Privilege
+
+### NIST CSF
+- **ID.GV** – Governance
+- **PR.IP** – Information Protection Processes
+- **DE.CM** – Continuous Monitoring
+
+### ISO 27001
+- **A.8** – Asset Management
+- **A.9** – Access Control
+- **A.12** – Operations Security
+- **A.14** – System Acquisition, Development & Maintenance
+
+### DoD / STIG Philosophy
+- Approved baselines
+- Drift detection
+- Continuous compliance
+
+---
+
+## Configuration Management Scope
+
+This project covers:
+
+- Configuration baselines
+- Change documentation
+- Evidence collection
+- Identity-related configuration
+- Cloud and on-prem concepts
+- Audit-ready artifacts
+
+---
+
+## Section 1: Configuration Baseline Definition
+
+### Objective
+Define what a **secure, approved configuration** looks like before changes occur.
+
+### Example Baseline Areas
+- Identity group membership
+- Role assignments
+- Conditional Access policies
+- Service configuration
+- Security hardening settings
+
+### Example Baseline Artifact
+- RBAC Matrix
+- Group-to-role mappings
+- Approved access patterns
+- Change approval requirements
+
+#### Evidence Placeholder
+📸 **Screenshot Placeholder:**  
+- Baseline documentation (RBAC matrix, role definitions, policy export)
+
+**[Insert Screenshot Here: Approved Baseline Documentation]**
+
+---
+
+### What This Shows
+
+- You understand that security starts with **defined baselines**
+- You can translate policy into **technical configuration standards**
+- You treat configuration as a **governed artifact**, not tribal knowledge
+
+---
+
+## Section 2: Change Control & Documentation
+
+### Objective
+Ensure **every configuration change** is authorized, documented, and traceable.
+
+### Change Control Elements
+- Change request identification
+- Business justification
+- Risk assessment
+- Approval record
+- Implementation evidence
+
+### Example Change Record Fields
+- Change ID
+- Configuration Item (CI)
+- Before state
+- After state
+- Approver
+- Implementation date
+
+#### Evidence Placeholder
+📸 **Screenshot Placeholder:**  
+- Change log (Excel / ticket / markdown)
+- Before & after configuration comparison
+
+**[Insert Screenshot Here: Change Request & Approval Record]**
+
+---
+
+### What This Shows
+
+- You understand **audit trails**
+- You can defend configuration changes during audits
+- You prevent unauthorized or undocumented changes
+
+---
+
+## Section 3: Configuration Drift Detection
+
+### Objective
+Identify when systems **deviate from approved baselines**.
+
+### Drift Examples
+- Extra group memberships
+- Unauthorized permissions
+- Changed security settings
+- Out-of-policy configurations
+
+### Detection Methods
+- Manual reviews
+- Periodic access reviews
+- Configuration comparisons
+- Script-based checks
+
+#### Evidence Placeholder
+📸 **Screenshot Placeholder:**  
+- Drift detection output
+- Comparison showing mismatch
+
+**[Insert Screenshot Here: Configuration Drift Identified]**
+
+---
+
+### What This Shows
+
+- You understand **continuous monitoring**
+- You can identify security risk caused by drift
+- You treat drift as a **security issue**, not an inconvenience
+
+---
+
+## Section 4: Remediation & Baseline Restoration
+
+### Objective
+Return systems to a **secure, approved state** after drift is identified.
+
+### Remediation Actions
+- Remove unauthorized access
+- Restore approved configuration
+- Document corrective action
+- Validate post-remediation state
+
+#### Evidence Placeholder
+📸 **Screenshot Placeholder:**  
+- Post-remediation configuration
+- Validation output
+
+**[Insert Screenshot Here: Baseline Restored]**
+
+---
+
+### What This Shows
+
+- You close the loop on configuration issues
+- You understand **corrective action**
+- You support audit closure and risk reduction
+
+---
+
+## Section 5: Identity-Centric Configuration Management
+
+### Objective
+Demonstrate how **IAM is a configuration management problem**.
+
+### Identity Configurations Managed
+- Group membership
+- Role assignments
+- Privileged access
+- Distribution lists
+- Access lifecycle (JML)
+
+### Examples
+- Removing users from old roles during a move
+- Enforcing least privilege
+- Preventing toxic combinations (SoD)
+
+#### Evidence Placeholder
+📸 **Screenshot Placeholder:**  
+- Group membership before/after
+- Role assignment review
+
+**[Insert Screenshot Here: Identity Configuration Change]**
+
+---
+
+### What This Shows
+
+- You understand IAM beyond provisioning
+- You connect identity governance to configuration discipline
+- You reduce insider risk and privilege creep
+
+---
+
+## Section 6: Healthcare & Enterprise Operations Context
+
+### Why This Matters in Healthcare IT
+
+Healthcare environments require:
+- Strict access control
+- Auditable change history
+- Minimal disruption
+- Regulatory defensibility (HIPAA, HITECH)
+
+Configuration Management ensures:
+- Systems remain compliant
+- Access changes are justified
+- Admin activity is controlled
+
+This directly supports:
+- Tier 2 / Tier 2.5 security operations
+- IAM oversight roles
+- Compliance and audit functions
+
+---
+
+### What This Shows
+
+- You understand **real-world enterprise IT**
+- You recognize healthcare-specific risk
+- You can operate in regulated environments
+
+---
+
+## Section 7: Evidence & Audit Readiness
+
+### Evidence Types Collected
+- Baseline documentation
+- Change approvals
+- Drift detection output
+- Remediation validation
+- Access review artifacts
+
+### Audit Use
+- Internal audits
+- External audits
+- Compliance reviews
+- Management reporting
+
+#### Evidence Placeholder
+📸 **Screenshot Placeholder:**  
+- Folder structure with evidence
+- Audit-ready artifacts
+
+**[Insert Screenshot Here: Audit Evidence Package]**
+
+---
+
+### What This Shows
+
+- You think like an auditor
+- You prepare evidence proactively
+- You reduce audit friction and findings
+
+---
+
+## Final Summary
+
+This project demonstrates that:
+
+- Configuration Management is a **core security control**
+- Identity, cloud, and governance are interconnected
+- Secure systems depend on **maintained baselines**
+- Audit readiness is built continuously, not retroactively
+
+This is not system administration —  
+This is **security governance through configuration discipline**.
+
+---
+
+## Next Enhancements (Optional)
+
+- Automated drift detection
+- CI/CD policy enforcement
+- IaC baseline validation
+- Continuous compliance reporting
+
+---
+
+## Author
+
+Craig W. Heard  
+IAM • GRC • Cloud Security  
+San Antonio, TX  
+GitHub: https://github.com/heardpautin  
+LinkedIn: https://linkedin.com/in/craig-heard
